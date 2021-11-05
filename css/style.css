@@ -1,0 +1,88 @@
+@import url("null.css");
+
+/*
+display=swap;
+subset=cyrillic-ext
+*/
+/*
+COLORS_0 {
+	color:#faed26
+			#46344e
+			#5a5560
+			#9d8d8f
+			#9b786f
+}
+COLORS_1 {
+	color:#A64AC9
+			#FCCD04
+			#FFB48F
+			#F5E6CC
+			#17E9E0
+}
+*/
+body{
+	font-family:'Roboto', sans-serif;
+}
+.wrapper {
+	/* padding: 20px; */
+	background-color:#F5F5F5;
+}
+._container{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.button {}
+/* SERVICE */
+.service {padding: 110px 0px;}
+.service__container {}
+.service__title {
+	font-size: 12px;
+	line-height: 200%;
+	font-weight: 700;
+	align-items: center;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	/* background: url(../img/icons/logo-title.svg) 0 0 no-repeat; вариант №1 */
+	color: #5D62B5;
+	position: relative; /* Вариант №2 */
+	padding: 0px 0px 0px 33px;/* для position */
+	margin: 0px 0px 33px 0px;
+}
+.service__title::before {
+	content: '';
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	/* padding: 0px 33px 0px 0px ; Вариант №3
+	background: url('../img/icons/logo-title.svg') 0 -3px no-repeat;
+	vertical-align: middle; */
+	background: url('../img/icons/logo-title.svg') 0 0 no-repeat;
+	position: absolute;
+	top: -2px;
+	left: 0;
+}
+.service__subtitle {
+	font-size: 36px;
+	line-height: 117%;
+	font-weight: 900;
+	color:#000;
+	margin: 0px 0px 78px 0px;
+}
+.service__body {
+	display: flex;
+}
+.service__row {
+	display: flex;
+	margin: 0px -12px;
+}
+.service__item {
+	padding: 0px 12px;
+}
+.card {}
+.card__body{
+	text-align: center;
+}
+.card__image {}
+.card__title {}
+.card__text {}
+.service__button {}
