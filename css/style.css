@@ -58,7 +58,7 @@ body {
 	background: url(../img/Blob.png) 0 0 no-repeat;
 	height: 100%;
 	width: 100%;
-	top: -51%;
+	top: -50%;
 	left: 49%;
 	transform: translate(200px, 0);
 	z-index: 1;
@@ -178,6 +178,7 @@ body {
 	flex: 0 1 33.333%;
 	padding: 0px 12px;
 	margin: 0px 0px 24px 0px;
+	min-width: 324px;
 }
 .item {
 }
@@ -255,6 +256,8 @@ body {
 .impact__body {
 	display: flex;
 	margin: 0px -12px;
+	row-gap: 24px;
+	flex-wrap: wrap;
 }
 .impact__item {
 	flex: 0 0 25%;
@@ -264,12 +267,13 @@ body {
 }
 .item-impact__body {
 	display: flex;
+	column-gap: 11px;
 }
 .item-impact__image{
 /* display: inline-block; */
 	width: 76px;
 	height: 76px;
-	padding: 0px 11px 0px 0px;
+	/* padding: 0px 11px 0px 0px; */
 
 }
 .item-impact__content{
