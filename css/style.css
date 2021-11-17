@@ -55,7 +55,7 @@ body {
 .service::before {
 	content: "";
 	position: absolute;
-	background: url(../img/Blob.png) 0 0 no-repeat;
+	background: url(../img/impact/Blob.png) 0 0 no-repeat;
 	height: 100%;
 	width: 100%;
 	top: -50%;
